@@ -30,12 +30,12 @@ final class PrimeFactorsTest extends TestCase
 	 */
 	public function factorsProvider() {
 		return array(
-			array( 2, array( 2 ) ),
-			array( 3, array( 3 ) ),
-			array( 4, array( 2, 2 ) ),
-			array( 5, array( 5 ) ),
-			array( 6, array( 2, 3 ) ),
-			array( 8, array( 2, 2, 2 ) ),
+			array( 2,  array( 2 ) ),
+			array( 3,  array( 3 ) ),
+			array( 4,  array( 2, 2 ) ),
+			array( 5,  array( 5 ) ),
+			array( 6,  array( 2, 3 ) ),
+			array( 8,  array( 2, 2, 2 ) ),
 			array( 99, array( 3, 3, 11 ) ),
 		);
 	}

@@ -16,11 +16,11 @@ class PrimeFactors {
 	public function generate( $num ) {
 		$factors = array();
 
-		for ( $divisor = 2; $divisor <= $num; $divisor++) {
+		for ( $divisor = 2; $num > 1; $divisor++ ) {
 			while ( 0 === $num % $divisor ) {
 				$factors[] = $divisor;
 				
-				$num = $num / $divisor;
+				$num /= $divisor;
 			}
 		}
 
